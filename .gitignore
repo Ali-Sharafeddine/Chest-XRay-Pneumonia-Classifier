@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Dataset: do not commit the Kaggle image dataset
+chest_xray/
+data/
+dataset/
+
+# Model checkpoints / large artifacts
+*.pt
+*.pth
+*.ckpt
+models/
+checkpoints/
+
+# Generated real-run results (choose what you want to commit later)
+results/*.json
